@@ -3,6 +3,6 @@
 
 ## to pip install:
 - fastapi[all]
-- jose
+- python-jose
 - sqlalchemy
 - passlib[bcrypt]
