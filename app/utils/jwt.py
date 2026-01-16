@@ -50,7 +50,7 @@ def create_access_token(data:dict)->str:
 
 
 # verification token if not error return user id:
-def token_verification(token:str, cred_exception: HTTPException):
+def token_verification(token:str, cred_exception: HTTPException)->TokenDataSchema:
     try:
         payload = jwt.decode(
             token=token,
